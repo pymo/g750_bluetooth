@@ -1,12 +1,12 @@
 # G750 reverse engineering
 
-
-The G750 keyboard uses a three-wire serial protocol. After disassembling the connector module, you can see a JST 3-pin, 1.25mm pitch male header. The 3 wires are:
-
+The G750 keyboard and its variants use a three-wire serial protocol. After disassembling the connector module, you can see a JST 3-pin, 1.25mm pitch male header. The 3 wires are:
 
 - Ground
 
-- Serial data, RS232 level (or more precisely, invert-TTL level, where 0V is high and 3.3V is low)
+- RXD (Serial data)
+  - For G750, the voltage is RS232 level (or more precisely, invert-TTL level, where 0V is 1 and 3.3V is 0)
+  - For G740, G7L0 and G7L1, the voltage is TTL level (0V is 0 and 3.3V is 1)
 
 - VCC, I tested with 3.3v and it works.
 
@@ -21,8 +21,8 @@ After the keyboard is supplied with VCC, when a key is pressed or released, it s
 
  - Byte2 is the inversion of Byte1’s 7-bit scancode. i.e. (Byte1 | 0b01111111) XOR Byte2 = 0b11111111. I think it is for error detection. In practice we can ignore this byte and only look at the scancode in Byte1.
 
------------
 Scancode table
+----------
 
 G750 with US layout:
 
