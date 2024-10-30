@@ -25,8 +25,3 @@ Instruction to install the adapter
 
 [Tutorial for installing the adapter into the keyboard](install.md)
 
-Demo on Youtube:
------------
-
-[![Bluetooth G750 Keyboard demo](http://img.youtube.com/vi/qPznzD5e45k/0.jpg)](https://www.youtube.com/watch?v=qPznzD5e45k "Version 3 of my Palm Portable Keyboard Bluetooth Adapter (CH582F based)")
-
