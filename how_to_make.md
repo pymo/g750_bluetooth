@@ -1,5 +1,7 @@
 # How to make the G750 adapter (CH582F based)
 
+Note: the adapter uses a custom PCB designed by myself. If you don't want to start from scratch and fabricate those PCBs, you can just buy the adapter from [Tindie](https://www.tindie.com/products/36279/) and skip the making process.
+
 Bill of Materials
 ----------
 - [WCH Micro Kbd board](https://github.com/pymo/wch_micro_kbd/), you can fabricate it yourself using the gerber file in [my other repo](https://github.com/pymo/wch_micro_kbd/tree/main/pcb/), or buy one from Tindie (will stock after the design is finalized).

@@ -1,5 +1,4 @@
 # How to install the Bluetooth assembly to the keyboard
------------
 
 Unscrew the 3 screws on the back and 2 screws on the front of the keyboard.
 ![install pic](/images/install1.jpg)
