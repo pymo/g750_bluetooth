@@ -37,6 +37,6 @@ These are in a [separate repo](https://github.com/pymo/wch_micro_kbd/), the PCB 
 Demo on Youtube
 -----------
 
-[![G750 Keyboard demo](http://img.youtube.com/vi/qPznzD5e45k/0.jpg)](https://www.youtube.com/watch?v=a8__Df5YKs4 "Converting the G750 folding keyboard into Bluetooth")
+[![G750 Keyboard demo](http://img.youtube.com/vi/a8__Df5YKs4/0.jpg)](https://www.youtube.com/watch?v=a8__Df5YKs4 "Converting the G750 folding keyboard into Bluetooth")
 
 
