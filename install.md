@@ -1,5 +1,8 @@
 # How to install the Bluetooth assembly to the keyboard
 
+First of all, if you purchased the adapter from me. Check if the micro switch on the adapter has stuck at its OFF position during shipping. If it does, gentally nudge the nib to let it pop out.
+![install pic](/images/stuck_switch.jpg)
+
 Unscrew the 3 screws on the back and 2 screws on the front of the keyboard.
 ![install pic](/images/install1.jpg)
 

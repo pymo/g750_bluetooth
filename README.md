@@ -8,7 +8,12 @@ Note that there are two variants of the electrical characteristics: G750 uses in
 
 The G750 keyboard uses an distinctive folding mechanism that slides out to both sides, while the middle piece raises up to the same level. A connector is prop’ed up to provide connectivity to the PDA. This project achieved Bluetooth functionality by replacing that connector module with a custom designed Bluetooth module.
 
-I've made a few of the adapter for sale at Tindie. [https://www.tindie.com/products/36279/](https://www.tindie.com/products/36279/)
+Where to buy
+-----------
+
+The keyboard itself can be found on eBay for around $15 to $20. You can search using the keywords "G750", "G740", "G700", "G7L0" or "G7L1" + "Keyboard".
+
+About the adapter, if you don't want to build it yourself, I've made a few of them for sale at Tindie. [https://www.tindie.com/products/36279/](https://www.tindie.com/products/36279/)
 
 G750 protocol analysis
 -----------
@@ -24,4 +29,14 @@ Instruction to install the adapter
 -----------
 
 [Tutorial for installing the adapter into the keyboard](install.md)
+
+PCB design and firmware
+-----------
+These are in a [separate repo](https://github.com/pymo/wch_micro_kbd/), the PCB design is shared with the Palm Portable Keyboard Bluetooth mod.
+
+Demo on Youtube
+-----------
+
+[![G750 Keyboard demo](http://img.youtube.com/vi/qPznzD5e45k/0.jpg)](https://www.youtube.com/watch?v=a8__Df5YKs4 "Converting the G750 folding keyboard into Bluetooth")
+
 

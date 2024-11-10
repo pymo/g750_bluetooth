@@ -1,4 +1,4 @@
-# G750 reverse engineering
+# G750 protocol analysis
 
 The G750 keyboard and its variants use a three-wire serial protocol. After disassembling the connector module, you can see a JST 3-pin, 1.25mm pitch male header. The 3 wires are:
 
@@ -19,7 +19,7 @@ After the keyboard is supplied with VCC, when a key is pressed or released, it s
 
  - The remaining 7-bit of Byte1 is the scancode, see the following table for the mapping
 
- - Byte2 is the inversion of Byte1’s 7-bit scancode. i.e. (Byte1 | 0b01111111) XOR Byte2 = 0b11111111. I think it is for error detection. In practice we can ignore this byte and only look at the scancode in Byte1.
+ - Byte2 is the inversion of Byte1’s 7-bit scancode. i.e. Byte1 | 0b01111111 == ~Byte2. I think it is for error detection. In practice we can ignore this byte and only look at the scancode in Byte1.
 
 Scancode table
 ----------
