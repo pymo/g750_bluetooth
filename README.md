@@ -4,7 +4,7 @@
 
 This project makes a Bluetooth adapter for the G750 foldable keyboard. This keyboard was meant to use with vintage PDAs (Windows CE, Palm, Clie etc.). It was sold under various brands (HP, Compaq, Dell, Treo etc.) and has multiple model numbers (G750, G740, G7L0, G7L1, etc.). But as long as they have the same look, this adapter should work for them.
 
-Note that there are two variants of the electrical characteristics: G750 uses inverted-TTL for its RX line, while G740, G7L0, G7L1 uses TTL level. Some keyboards also have an extra key at the left side of the space bar. See the [protocol analysis and keycodes](g750_protocol.md) for details. Therefore, the hardware wiring and the firmware are slightly different for different models.
+Note that there are two variants of the electrical characteristics: G750 uses inverted-TTL for its RX line, while G740, G7L0, G7L1 uses TTL level. Some keyboards also have one or two extra keys depending on the layout and the PDA's OS. See the [protocol analysis and keycodes](g750_protocol.md) for details. Therefore, the hardware wiring and the firmware are slightly different for different models.
 
 The G750 keyboard uses an distinctive folding mechanism that slides out to both sides, while the middle piece raises up to the same level. A connector is prop’ed up to provide connectivity to the PDA. This project achieved Bluetooth functionality by replacing that connector module with a custom designed Bluetooth module.
 

@@ -30,9 +30,9 @@ G750 with US layout:
 | :-------: | :-------: | :-------: | :-------: | :-------: | :-------: | :-------: | :-------: |
 | 0x02 | HID_KEY_FN | 0x28 | HID_KEY_ARROW_UP | 0x43 | HID_KEY_I | 0x60 | HID_KEY_ARROW_DOWN |
 | 0x07 | HID_KEY_GUI_LEFT | 0x2A | HID_KEY_V | 0x44 | HID_KEY_O | 0x66 | HID_KEY_DELETE |
-| 0x0D | HID_KEY_TAB | 0x2B | HID_KEY_F | 0x45 | HID_KEY_0 | 0x71 | HID_KEY_BACKSPACE |
-| 0x0E | HID_KEY_GRAVE | 0x2C | HID_KEY_T | 0x46 | HID_KEY_9 | 0x73 | HID_KEY_CONTROL_RIGHT |
-| 0x11 | HID_KEY_ALT_RIGHT | 0x2D | HID_KEY_R | 0x49 | HID_KEY_PERIOD |  | |
+| 0x0D | HID_KEY_TAB | 0x2B | HID_KEY_F | 0x45 | HID_KEY_0 | 0x70 | HID_KEY_ALT_RIGHT |
+| 0x0E | HID_KEY_GRAVE | 0x2C | HID_KEY_T | 0x46 | HID_KEY_9 | 0x71 | HID_KEY_BACKSPACE |
+| 0x11 | "Today" key | 0x2D | HID_KEY_R | 0x49 | HID_KEY_PERIOD | 0x73 | HID_KEY_CONTROL_RIGHT |
 | 0x12 | HID_KEY_SHIFT_LEFT | 0x2E | HID_KEY_5 | 0x4A | HID_KEY_SLASH |  | |
 | 0x14 | HID_KEY_CONTROL_LEFT | 0x2F | HID_KEY_ARROW_RIGHT | 0x4B | HID_KEY_L |  | | 
 | 0x15 | HID_KEY_Q | 0x31 | HID_KEY_N | 0x4C | HID_KEY_SEMICOLON |  | |
@@ -50,3 +50,8 @@ G750 with US layout:
 | 0x26 | HID_KEY_3 | 0x42 | HID_KEY_K | 0x5E | HID_KEY_ARROW_LEFT | | | 
 
 
+G750 with UK layout, same with US but with the following difference:
+| Scan code | HID code |
+| :-------: | :-------: |
+| 0x52 | (on the top of the up-arrow key), HID_KEY_EUROPE_1 |
+| 0x74 | (to the right of the left-shift key), HID_KEY_EUROPE_2 |
