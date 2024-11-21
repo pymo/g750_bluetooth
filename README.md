@@ -32,7 +32,7 @@ Instruction to install the adapter
 
 PCB design and firmware
 -----------
-These are in a [separate repo](https://github.com/pymo/wch_micro_kbd/), the PCB design is shared with the Palm Portable Keyboard Bluetooth mod.
+These are in a [separate repo](https://github.com/pymo/wch_micro_kbd/), the PCB design is shared with the Palm Portable Keyboard Bluetooth mod. The PCB uses a WCH CH582F chip, which is a RISC V based Bluetooth controller. It is low cost, power efficient and easy enough to use, which is why I chose it.
 
 Demo on Youtube
 -----------
