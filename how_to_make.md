@@ -44,7 +44,7 @@ Insert the PCB into the main frame like this, run the 3 wires in the tube.
 
 ![wiring pic](/images/wiring4.jpg)
 
-Put some super glue and install the switch in the main frame, glue it in-place.
+Put some super glue on the shorter sides of the switch, and install the switch in the main frame, glue it in-place.
 
 ![wiring pic](/images/glue_switch.jpg)
 
