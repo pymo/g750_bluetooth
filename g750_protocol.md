@@ -51,7 +51,27 @@ G750 with US layout:
 
 
 G750 with European (UK, ES etc.) layout, mostly the same with US but with the following difference:
+
 | Scan code | HID code |
 | :-------: | :-------: |
 | 0x52 | (on the top of the up-arrow key), HID_KEY_EUROPE_1 |
 | 0x74 | (to the right of the left-shift key), HID_KEY_EUROPE_2 |
+
+G740 for Treo and G7L1 for Dell, the bottom row has one extra key to the left of the Space key:
+
+| Scan code | G740 Key | G7L1 Key |
+| :-------: | :-------: | :-------: |
+| 0x02 | Fn | Fn |
+| 0x14 | Ctrl | Ctrl |
+| 0x07 | opt | Windows |
+| 0x70 | find |Today |
+| 0x7a | Alt | Home |
+| 0x5C | Space | Space |
+| 0x11 | Home | alt |
+| 0x73 | Menu | ctrl |
+| 0x66 | Center | del |
+| 0x5E | Left Arrow | Left Arrow |
+| 0x60 | Right Arrow | Down Arrow |
+| 0x2F | Down Arrow | Right Arrow |
+
+
