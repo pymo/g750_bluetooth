@@ -4,7 +4,7 @@
 
 This project makes a Bluetooth adapter for the G750 foldable keyboard. This keyboard was meant to use with vintage PDAs (Windows CE, Palm, Clie etc.). It was sold under various brands (HP, Compaq, Dell, Treo etc.) and has multiple model numbers (G750, G7L0, G7L1, etc.). But as long as they have the same look, this adapter should work for them.
 
-There are two exceptions: G740 (serial baud rate not stable for unknown reason) and G700 (USB protocol instead of serial), so these two can not be supported.
+There are one exception: G700 for Toshiba, it uses USB protocol instead of serial, so it can not be supported. (There is also a G700 for Palm and Sony Clie, maybe that can be supported, but I haven't tested it yet.)
 
 Note that there are two variants of the electrical characteristics: G750 uses inverted-TTL for its RX line, while G7L0, G7L1 uses TTL level. Some keyboards also have one or two extra keys depending on the layout and the PDA's OS. See the [protocol analysis and keycodes](g750_protocol.md) for details. Therefore, the hardware wiring and the firmware are slightly different for different models.
 
@@ -21,6 +21,7 @@ Support status
 | Dell | G7L0 or G7L1 | Yes | TTL |
 | Treo | G740 | Yes | TTL |
 | Belkin | G700 for Toshiba | No | USB protocol |
+| Belkin | G700 for Palm/Clie | ? | Not tested |
 
 Where to buy
 -----------
