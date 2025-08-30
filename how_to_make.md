@@ -1,10 +1,10 @@
 # How to make the G750 adapter (CH582F based)
 
-Note: the adapter uses a custom PCB designed by myself. If you don't want to start from scratch and fabricate those PCBs, you can just buy the adapter from [Tindie](https://www.tindie.com/products/36279/) and skip the making process.
+Note: If you don't want to start from scratch and make this adapter, you can just buy the adapter from [Tindie](https://www.tindie.com/products/36279/) and skip the making process.
 
 Bill of Materials
 ----------
-- [WCH Micro Kbd board](https://github.com/pymo/wch_micro_kbd/), you can fabricate it yourself using the gerber file in [my other repo](https://github.com/pymo/wch_micro_kbd/tree/main/pcb/), or buy one from Tindie (will stock after the design is finalized).
+- [WCH Micro Kbd board](https://github.com/pymo/wch_micro_kbd/), you can buy it from my [Tindie store](https://www.tindie.com/products/35183/). You can also fabricate it yourself using the gerber file in [my other repo](https://github.com/pymo/wch_micro_kbd/tree/main/pcb/).
 - 3-pin JST 1.25mm pitch connector with wires.
 - Some thin, flexible wire for the switch connection. I use 30 AWG PVDF insulated single core wire.
 - 401225 Li-Po battery 100mAh (4mm x 12mm x 25mm in dimensions).
@@ -15,7 +15,7 @@ Bill of Materials
 
 3D printed parts
 ----------------
-See the stl files in 3d_print/ folder. It comes in 2 files: the upper cap, the main frame. The upper cap needs to use support to print. The main frame has some support already added, it can be printed directly. PLA filament is recommended, because it is more rigid.
+See the stl files in 3d_print/ folder. It comes in 2 files: the upper cap, the main frame. The upper cap needs a support to print, see the README there. The main frame has some support already added, it can be printed directly. PLA filament is recommended, because it is more rigid.
 
 I used TinkerCAD to create these models. If you are interested in modifying the 3D model, you can visit this link: https://www.tinkercad.com/things/e2wjntFVclj-g750-keyboard-adapter
 
